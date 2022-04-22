@@ -7,8 +7,11 @@
   },
   "sources": {
     "openmaptiles": {
-      "type": "vector",
-      "url": "https://tiles.nst.guide/openmaptiles/tile.json"
+      "type": "raster",
+      "tiles": [
+        "https://img.nj.gov/imagerywms/Natural2015?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Natural2015"
+      ],
+      "tileSize": 256
     }
   },
   "sprite": "https://nst-guide.github.io/osm-liberty-topo/sprites/osm-liberty-topo",
