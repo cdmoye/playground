@@ -21,8 +21,7 @@
       'source': 'wms-test-source',
       'paint': {}
     },
-    'aeroway-line'
-    }
+    "aeroway-line"
   ],
   "id": "wms"
 }
