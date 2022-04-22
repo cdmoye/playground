@@ -19,8 +19,7 @@
       "type": "raster",
       "source": "openmaptiles",
       "paint": {}
-    },
-    "aeroway-line"
+    }
   ],
   "id": "wms-test"
 }
